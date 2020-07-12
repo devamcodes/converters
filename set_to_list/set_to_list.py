@@ -7,6 +7,10 @@ Date:11 july 2020
 Descreption:
 This program contains function that converts set into the list
 Status:Tested
+
+Bugs:
+-keyword used which was eventually replaceed with another parameter in convert_set_to_list function
+
 """
 print("\t\t\t\tset generator\n\n\n")
 def generate_set():
@@ -19,9 +23,9 @@ def generate_set():
     print(output_set)
     return output_set
 
-def convert_set_to_list(set):
+def convert_set_to_list(input_set):
     output_list = list()
-    for elements in set:
+    for elements in input_set:
         output_list.append(elements)
     else:
         print("set converted!")
